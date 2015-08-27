@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.iluv2code.tests.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.616 sec <<< FAILURE!
+testSearch(com.iluv2code.tests.AppTest)  Time elapsed: 1.939 sec  <<< FAILURE!
+org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=43.0.2357.124)
+  (Driver info: chromedriver=2.15.322455 (ae8db840dac8d0c453355d3d922c91adfb61df8f),platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'MTVL1145eefa7.local', ip: '172.18.83.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+Session ID: f93b24e488b8e0a8c07d1c082ad4f7f1
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/2v/dyjh9fvn01b9h9by5s3n03w8bdqt61/T/.org.chromium.Chromium.RVPWB0}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.124, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:113)
+	at com.iluv2code.tests.AppTest.testSearch(AppTest.java:34)
