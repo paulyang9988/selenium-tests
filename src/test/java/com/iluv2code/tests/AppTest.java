@@ -17,7 +17,7 @@ public class AppTest {
     @BeforeTest
     public void setupSelenium(){
         //Start the browser (firefox for now)
-	//System.setProperty("webdriver.chrome.driver", "../bin/chromedriver");
+	System.setProperty("webdriver.chrome.driver", "../bin/chromedriver");
         driver = new ChromeDriver();
 
         //This adds implicit timeouts to the driver (instead of clickAndWait())
@@ -44,6 +44,12 @@ public class AppTest {
         //assertEquals(termInTitle, searchTerm,
         //        "Search term not found in search results");
 
+    }
+
+    @Test
+    public void testAdd(){
+	String abc = "abc";
+	assertEquals(abc, "abc", "Add failed");
     }
 
     @AfterTest
