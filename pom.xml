@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testng.version>6.3</testng.version>
-        <selenium.version>2.43.0</selenium.version>
+        <selenium.version>2.53.0</selenium.version>
         <surefire.version>2.11</surefire.version>
         <maven.compiler.version>2.3.2</maven.compiler.version>
     </properties>

@@ -17,8 +17,9 @@ public class AppTest {
     @BeforeTest
     public void setupSelenium(){
         //Start the browser (firefox for now)
-	System.setProperty("webdriver.chrome.driver", "bin/chromedriver");
-        driver = new ChromeDriver();
+	//System.setProperty("webdriver.chrome.driver", "bin/chromedriver");
+        //driver = new ChromeDriver();
+	driver = new FirefoxDriver();
 
         //This adds implicit timeouts to the driver (instead of clickAndWait())
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
